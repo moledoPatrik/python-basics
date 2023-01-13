@@ -3,5 +3,8 @@ def say_hi(name, age):
 
 say_hi('Patrik', '22')
 
-def something():
-    return 'something'
+def cube(num):
+    return num * num * num
+
+result = cube(4)
+print(result)
